@@ -1,0 +1,140 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+#video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: black;
+}
+#header {
+  display: flex;
+  min-height: 75px;
+  border: 1px solid black;
+  justify-content: space-beetwen;
+  align-items: center;
+  background-color: #f4e4c1;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+#nav-bar {
+  display: flex;
+}
+.nav-link {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  font-size: x-large;
+}
+
+header img {
+  height: 80px;
+}
+#gambar {
+  display: flex;
+  max-height: 800px;
+}
+#gambar img {
+  width: 100%;
+}
+#promo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #b34d22;
+  color: white;
+  margin: 10px 0px;
+}
+#offer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  max-width: 100%;
+  background-color: #f0f0f0;
+}
+#promo-satu,
+#promo-dua,
+#promo-tiga {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px;
+  margin-top: 40px;
+  background-color: #f4e4c1;
+}
+#form-container {
+  display: flex;
+  align-items: center;
+  min-height: 300px;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#submit {
+  width: 110px;
+  height: 30px;
+}
+#email {
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 3px;
+}
+#email,
+#submit {
+  margin-top: 20px;
+}
+label {
+  font-size: 20px;
+}
+#footer p {
+  margin: 20px;
+}
+#footer {
+  max-height: 200px;
+  background-color: #f4e4c1;
+  text-align: center;
+}
+.nav-link a {
+  color: #623928;
+  text-decoration: none;
+}
+#offer-container h4 {
+  border: 1px solid black;
+  border-left: none;
+  border-bottom: none;
+  margin: 0px;
+  padding: 30px;
+  background-color: #b34d22;
+  color: white;
+}
+.promo-content {
+  height: 300px;
+  border: 1px solid black;
+  border-top: none;
+}
+@media (max-width: 880px) {
+  #offer-container {
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+  }
+  iframe {
+    width: 340px;
+    height: 240px;
+  }
+}
